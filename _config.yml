@@ -73,6 +73,13 @@ tag_map:
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
 
+
+aplayer:
+  enable: true
+  autoplay: false  # 设置自动播放，默认为false
+  loop: true       # 设置循环播放，默认为true
+  theme: '#f6a5b6' # 设置播放器主题颜色，可以选择其他颜色或使用默认值
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
